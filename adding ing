@@ -1,0 +1,8 @@
+str=input("enter the string")
+l=len(str)# find the length of the string
+if l<=2:
+    print(str)
+elif str.endswith("ing"):
+    print(str+'ly')
+else:
+    print(str+"ing")
